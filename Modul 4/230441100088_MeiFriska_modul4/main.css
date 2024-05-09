@@ -1,0 +1,91 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #8FBC8F;
+}
+
+.container {
+    max-width: 700px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 50px rgba(0, 0, 0, 0.5);
+}
+
+
+h1 {
+    text-align: center;
+    color: #333;
+}
+
+p {
+    flex: 2;
+    padding: 20px;
+    text-align: left;
+}
+
+input[type="text"] {
+    width: 70%;
+    padding: 8px;
+    margin-bottom: 10px
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    padding: 8px 15px;
+    background-color: #B3f;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+ul li {
+    padding: 1rem;
+    background-color: #f9f9f9;
+    margin-bottom: 5px;
+    border-radius: 5px;
+    display: flex;
+    position: relative;
+}
+
+ul li p {
+    color: red;
+}
+
+.completed {
+    text-decoration: line-through;
+    color: #999;
+}
+
+/* tombol baru */
+
+ul li .newButton1, ul li .newButton2 {
+    padding: 8px 15px;
+    background-color: #B3f;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    position: absolute;
+    top: 8px;
+}
+
+ul li .newButton2 {
+    right: 0;
+}
+
+ul li .newButton1 {
+    right: 17%;
+}
+
+p{
+    width: 100%;
+    height: 75px;
+}
